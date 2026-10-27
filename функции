@@ -1,0 +1,5 @@
+def simple(n):
+    for d in range(2, int(abs(n**0.5))+1):
+        if n % d == 0:
+            return 0
+    return 1
